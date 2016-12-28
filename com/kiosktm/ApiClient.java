@@ -61,7 +61,6 @@ public class ApiClient {
     public String getHost() { return this.host; }
 
     public static void main(String args[]) {
-        //ApiClient client = new ApiClient("d0b911fd-5592-4143-aa77-74fb7597f4ca", "a769af108be193026e5f7b61c2ecd6a5");
         if(args.length < 2) {
             System.out.println("Usage: java -jar KioskApiClient.jar <client_id> <client_secret>");
             System.exit(0);
