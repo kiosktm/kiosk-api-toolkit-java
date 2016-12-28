@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.kiosktm.ApiClient
+Class-Path: lib/java-json.jar com/kiosktm/*.class
