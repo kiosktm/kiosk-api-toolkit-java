@@ -41,7 +41,7 @@ try {
 
 ## Sample Responses
 
-The `submit_prospect` method always returns an array with a "status" element.  
+The `submitProspect` method returns a HashMap with a "status" element.  
 The "status" element with be either "ok" or "error".
 
 ### OK Response
